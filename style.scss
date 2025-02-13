@@ -221,8 +221,10 @@ h3.button-header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
     @include media-mobile{
         flex-direction: column;
+        gap: 30px;
     }
 }
 .button-container {
@@ -230,7 +232,7 @@ h3.button-header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap:10px;
 }
 button{
     width: 200px;
